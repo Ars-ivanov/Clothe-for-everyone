@@ -1,6 +1,9 @@
 *{
 text-alight: centre;
 }
+.reg{
+  display: block;
+}
 .checkbox{
   text-alight: centre;
 }
