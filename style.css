@@ -1,6 +1,10 @@
 body{
-  text-align:center;
+  text-align: center;
   background-color: #fffb8c;
+}
+header{
+  text-align: center;
+
 }
 .reg{
   display: block;
