@@ -3,7 +3,7 @@ body{
   background-color: #fffb8c;
 }
 .reg{
-  display: block;
+  display: flex;
   justify-content: center;
 }
 
