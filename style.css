@@ -2,11 +2,8 @@ body{
   text-align: center;
   background-color: #fffb8c;
 }
-header{
-  text-align: center;
-
-}
 .reg{
   display: block;
+  text-align: center;
 }
 
