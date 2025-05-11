@@ -1,9 +1,7 @@
 *{
-text-alight: centre;
+flex-direction: column;
 }
 .reg{
   display: block;
 }
-.checkbox{
-  text-alight: centre;
-}
+
