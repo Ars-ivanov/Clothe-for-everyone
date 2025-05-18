@@ -3,8 +3,6 @@ body{
   background-color: #fffb8c;
 }
 .reg{
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  text-align: center;
 }
 
