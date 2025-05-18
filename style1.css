@@ -1,0 +1,12 @@
+body{
+  text-align: center;
+  background-color: #fffdb9;
+}
+header>img{
+    position: absolute;
+    left:20px;
+    top:10px;
+}
+header>h1{
+    position: relative;
+}
