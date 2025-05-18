@@ -1,8 +1,34 @@
 body{
   text-align: center;
-  background-color: #fffb8c;
+  background-color: #fffdb9;
 }
 .reg{
-  text-align: center;
+    display: flex;
+  justify-self: center;
+  background-color: #fde387;
+  
+}
+input{
+      text-align: center;
+      margin: 10px;
+      background-color: rgb(255, 238, 155);
+      border: 2px solid rgb(254, 228, 95);
+      border-radius: 5px;
+}
+input:hover{
+    background-color: rgb(255, 213, 2);
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    margin: 5px;
+}
+.button>a>input{
+        width: 300px;
+    height: 30px;
+}
+img{
+    margin: 5px;
 }
 
