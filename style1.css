@@ -31,7 +31,7 @@ body{
     margin: 5px;
   }
   div>div>img:hover{
-    transform: scale(2);
+    transform: rotate(360deg);
   }
   .button{
     background-color: #ffcf4b;
