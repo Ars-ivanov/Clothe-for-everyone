@@ -14,18 +14,31 @@
         <div class="reg">
             <img src="ART_7240.jpg">
             <div>
-            <div><input type="text" name="name" placeholder="Введите ваше имя" required></div>
-            <div><input type="text" name="surname" placeholder="Введите вашу фамилию" required></div>
-            <div><input type="password" name="passw" placeholder="Введите ваш пароль" required></div>
+            <div><input type="text" name="name" id="nameInput" placeholder="Введите ваше имя" required></div>
+            <div><input type="text" name="surname" id="surnameInput" placeholder="Введите вашу фамилию" required></div>
+            <div><input type="password" name="passw" id="passwInput" placeholder="Введите ваш пароль" required></div>
             
             <div class="checkbox">
-                <input type="checkbox" name="agree" id="agree" required>
+                <input type="checkbox" id="agreeCheckbox" name="agree" id="agree" required>
                 <label for="agree">Я ознакомился с правилами</label>
             </div>
-            <div class="button"><a href="МагазинОдежды.html"><input type="submit" value="Зарегистрироваться"></a></div>
+            <div class="button"><a href="МагазинОдежды.html"><input type="submit" id="submitBtn" value="Зарегистрироваться"></a></div>
             </div>
             </div>
         
     </main>   
+    <script> 
+        const nameInput = document.getElementById('name'); 
+        const surnameInput = document.getElementById('surname'); 
+        const passwInput = document.getElementById('passw'); 
+        const agreeCheckbox = document.getElementById('agree');
+        const submitBtn = document.getElementById('submitBtn'); 
+        function checkForm() { submitBtn.disabled = !( nameInput.value && surnameInput.value && passwInput.value && agreeCheckbox.checked ); 
+                             } nameInput.addEventListener('input', checkForm); 
+        surnameInput.addEventListener('input', checkForm);
+        passwInput.addEventListener('input', checkForm); 
+        agreeCheckbox.addEventListener('change', checkForm); 
+        checkForm(); 
+    </script>
 </body>
 </html>
