@@ -30,8 +30,8 @@ body{
   .clothes>img{
     margin: 5px;
   }
-  div>div>img:hover{
-    transform: rotate(360deg);
+  nav>ul>li>a:hover{
+    transform: slace(2);
   }
   .button{
     background-color: #ffcf4b;
