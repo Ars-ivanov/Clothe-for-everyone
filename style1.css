@@ -77,24 +77,6 @@ a{
     text-decoration: none;
     color:black;
   }
-@media(min-width:768px){
-    ul{
-        background-color: #ffdb77;
-        border-radius: 10px;
-        flex-direction: row;
-        width: 100%;
-    }
-}
-@media(min-width:1280px){
-    ul{
-        margin-left: 15%;
-        background-color: #ffdb77;
-        border-radius: 10px;
-        flex-direction: row;
-        width: 70%;
-    }
-}
-
   @media(min-width: 768px){
     .tablet{
         display: flex;
@@ -102,6 +84,12 @@ a{
      .phone{
     margin-left: 60%;
   }
+    ul{
+        background-color: #ffdb77;
+        border-radius: 10px;
+        flex-direction: row;
+        width: 100%;
+    }
   }
   @media(min-width: 1024px){
     .dectop{
@@ -110,5 +98,12 @@ a{
      .phone{
     margin-left: 70%;
   }
+    ul{
+        margin-left: 15%;
+        background-color: #ffdb77;
+        border-radius: 10px;
+        flex-direction: row;
+        width: 70%;
+    }
   }
   
